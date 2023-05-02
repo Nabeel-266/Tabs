@@ -5,5 +5,112 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'K2D', sans-serif !important;
+}
+
+.mainCont{
+    /* background-color: aquamarine; */
+}
+.subCont{
+    /* background-color: blueviolet; */
+}
+
+.contentArea{
+    padding: 50px 0px;
+    /* background-color: lightgreen; */
+}
+
+.heading{
+    /* background-color: aqua; */
+    text-align: center;
+}
+.heading h1{
+    font-size: 5rem;
+    /* background-color: lightcoral; */
+    text-decoration: underline;
+    font-weight: 600;
+}
+.heading p{
+    font-size: 2rem;
+    /* background-color: lightsalmon; */
+    color: #444444;
+    font-weight: 500;
+}
+
+.contentRow{
+    /* background-color: lightpink; */
+    padding: 40px 0px 0px 0px;
+}
+.imageArea{
+    /* background-color: aquamarine; */
+    height: 50vh;
+}
+.image{
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.textArea{
+    /* background-color: darkcyan; */
+}
+.tabTitle{
+    /* background-color: aquamarine; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+.tabHistory, .tabVision, .tabGoals{
+    text-align: center;
+    padding: 8px 0px;
+    background-color: #666666;
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
+    border: none;
+    transition: 0.2s;
+}
+.tabHistory:hover, .tabVision:hover, .tabGoals:hover{
+    background-color: #dbdbdb;
+    color: #555555;
+}
+
+.tabContent{
+    padding: 20px 20px !important;
+    background-color: #222222;
+    color: #fff;
+}
+.tabCnt{
+    display: none;
+}
+.tabContent h5{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px !important;
+}
+.tabContent p{
+    font-size: 1.6rem;
+    letter-spacing: 0.2px;
+    color: #eeeeee;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    font-size: 1.65rem;
+}
+
+.active{
+    background-color: #222222;
+    display: block;
+}
+.active:hover{
+    background-color: #222222;
+    color: #fff;
 }
